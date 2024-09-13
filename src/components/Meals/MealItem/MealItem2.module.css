@@ -1,0 +1,62 @@
+
+.meals{
+    background-color: white;
+    width: 900px;
+    height: 700px;
+    margin-left: 250px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 2px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.meal{
+    display: grid;
+    grid-template-columns: 1fr 100px;
+    padding-right: 30px;
+    align-items: center;
+    border-bottom: 1px solid rgb(201, 190, 190);
+    margin: 20px 20px;
+}
+
+.amount-sec{
+    display: grid;
+    grid-template-columns:  70px 30px;
+    margin-right: 20px;
+}
+
+.meal-quantity{
+    display: grid;
+    grid-template-rows: 30px 30px;
+    row-gap: 20px;
+
+}
+
+.quantity{
+    border: 1px solid rgb(141, 136, 136);
+    height: 25px;
+    width: 35px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+
+}
+ .desc{
+    font-style: italic;
+ }
+
+ .price {
+    margin-top: 0.25rem;
+    font-weight: bold;
+    color: #ad5502;
+    font-size: 1.25rem;
+  }
+.add-button{
+    width: 90px;
+    background-color: brown;
+    color: white;
+    border-radius: 15px;
+    padding: 8px 12px;
+    border: 1px;
+}
